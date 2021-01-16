@@ -1,0 +1,24 @@
+{
+  "name": "ctrlv/composer-package",
+  "description": "Test composer package",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "danielpfm",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4.0"
+  },
+  "require-dev": {
+
+  },
+
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "ctrlv\\HelloWorld\\": "src/"
+    }
+  }
+}
